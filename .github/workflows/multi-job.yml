@@ -28,7 +28,7 @@ jobs:
       - name: Build Go Binary
         run: go build -o main.exe main.go
       - name: Run binary
-        run: .\mian.exe
+        run: .\main.exe
 
   macos:
     runs-on: macos-latest
